@@ -36,6 +36,9 @@
 		39C2215B15BDD61D00DA4F7D /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39C2215815BDD61D00DA4F7D /* MyViewController.xib */; };
 		39C2219015BDE61300DA4F7D /* KSRetainTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C2215415BDD5E600DA4F7D /* KSRetainTracker.framework */; };
 		39C2219215BDE61400DA4F7D /* KSRetainTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C2215415BDD5E600DA4F7D /* KSRetainTracker.framework */; };
+		CB584C7F17063E5300D28906 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB584C7E17063E5300D28906 /* Default-568h@2x.png */; };
+		CB584C8017063E6C00D28906 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB584C7E17063E5300D28906 /* Default-568h@2x.png */; };
+		CB584C8117063E7500D28906 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB584C7E17063E5300D28906 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +79,7 @@
 		39FC9A8115BDD1B200255F8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		39FC9A8315BDD1B200255F8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		39FC9A8515BDD1B200255F8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB584C7E17063E5300D28906 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +197,7 @@
 		39FC9A7215BDD1B200255F8D = {
 			isa = PBXGroup;
 			children = (
+				CB584C7E17063E5300D28906 /* Default-568h@2x.png */,
 				39C2210315BDD46C00DA4F7D /* LeakDemo */,
 				39C2212115BDD47800DA4F7D /* LogDemo */,
 				39C2213F15BDD48200DA4F7D /* FocusedLoggingDemo */,
@@ -282,7 +287,7 @@
 		39FC9A7415BDD1B200255F8D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 39FC9A7715BDD1B200255F8D /* Build configuration list for PBXProject "KSRetainTrackerDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -311,6 +316,7 @@
 				39C2210815BDD46C00DA4F7D /* InfoPlist.strings in Resources */,
 				39C2211415BDD46C00DA4F7D /* ViewController.xib in Resources */,
 				39C2215B15BDD61D00DA4F7D /* MyViewController.xib in Resources */,
+				CB584C8017063E6C00D28906 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +326,7 @@
 			files = (
 				39C2212615BDD47800DA4F7D /* InfoPlist.strings in Resources */,
 				39C2213215BDD47800DA4F7D /* ViewController.xib in Resources */,
+				CB584C7F17063E5300D28906 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +336,7 @@
 			files = (
 				39C2214415BDD48200DA4F7D /* InfoPlist.strings in Resources */,
 				39C2215015BDD48200DA4F7D /* ViewController.xib in Resources */,
+				CB584C8117063E7500D28906 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,9 +507,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -547,9 +555,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
